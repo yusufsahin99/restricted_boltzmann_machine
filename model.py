@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 29 11:04:49 2023
-
-@author: yusufsahin
-"""
-
 import torch
 import torch.utils.data
 import math
