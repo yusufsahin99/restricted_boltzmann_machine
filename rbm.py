@@ -39,12 +39,6 @@ test_set[test_set == 1] = 0
 test_set[test_set == 2] = 0
 test_set[test_set > 2] = 1
 
-rbm = RBM(number_of_movies, 200)
-losses = rbm.train(training_set, 24, 20, 2)
-weights = np.repeat(1.0, 10) / 10
-losses_smooth = np.convolve(losses, weights, 'valid')
-plt.plot(losses_smooth)
-
 batch_size = [25,45,60]
 number_of_hidden_units = [5,20,200]
 
