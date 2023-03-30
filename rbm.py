@@ -1,11 +1,3 @@
-#!/usr/local/bin python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 28 16:41:28 2023
-
-@author: yusufsahin
-"""
-
 import numpy as np
 import pandas as pd
 import torch
